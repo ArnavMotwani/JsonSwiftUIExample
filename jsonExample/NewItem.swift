@@ -35,5 +35,6 @@ struct NewItem: View {
                 }
             }
         }
+        .navigationTitle("New item")
     }
 }

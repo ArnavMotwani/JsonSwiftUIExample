@@ -33,7 +33,7 @@ struct ContentView: View {
                     })
                 }
             }
-            .navigationTitle("New item")
+            .navigationTitle("Json example")
             .navigationBarItems(trailing:NavigationLink(destination: NewItem(),label: {Image(systemName: "plus").imageScale(.large)}))
         }
     }
