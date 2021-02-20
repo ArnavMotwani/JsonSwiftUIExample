@@ -11,7 +11,7 @@ import SwiftUI
 struct jsonExampleApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(jsonData()) // Creating an instance of jsonData that we pass to the content view
         }
     }
 }
